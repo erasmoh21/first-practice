@@ -22,5 +22,17 @@
 
 .contenedorInput #inputColor {
   border: none;
-  color: blue;
+  border-radius: 5px;
+}
+
+.contenedorValorDelColor {
+  margin-top: 1rem;
+  background-color: #FFFFFF;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contenedorValorDelColor p {
+  color: #333;
+  font-weight: bold;
 }

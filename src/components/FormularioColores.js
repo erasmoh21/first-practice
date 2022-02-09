@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import ValorDeColores from './ValorDeColores.js'
 
 export default function FormularioColores() {
     const [color,setColor] = useState('0')
@@ -13,6 +14,7 @@ export default function FormularioColores() {
         <div className="contenedorInput">
             <label htmlFor='inputColor' id='labelInput'>Seleccione el color de su gusto: </label>
             <input type={"color"} id="inputColor" onChange={cambioDeColor} ></input>
+            <ValorDeColores color={color}/>
         </div>
     )
 }
