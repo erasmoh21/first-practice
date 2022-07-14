@@ -16,6 +16,7 @@
 }
 
 .contenedorInput #labelInput {
+  color: #333;
   font-weight: bolder;
   margin-bottom: 1rem;
 }

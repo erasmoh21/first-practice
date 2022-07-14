@@ -13,4 +13,5 @@
 
 1. > git clone https://github.com/erasmoh24/primera-practica-react.git
 2. > Una vez descargado ingresar a la carpeta primera-pagina
-3. > Al ingresar ejecutar el siguiente comando 'npm start'
+3. > Ingresa el siguiente comando -> npm install
+4. > Luego una vez descargado todas las dependencias necesarias para el proyecto con npm install, ejecuta el siguiente comando 'npm start'
